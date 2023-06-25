@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  poo-gcc_container:
+    container_name: poo-gcc_container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./exercises:/exercises
